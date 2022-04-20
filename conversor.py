@@ -1,7 +1,10 @@
-pesos = input("¿Cuantos pesos colombianos tienes?: ")
-pesos = float(pesos)
-valor_dolar = 4000
-dolares = pesos / valor_dolar
-dolares = round(dolares, 2)
-dolares = str(dolares)
-print("Tienes $" + dolares + " dolares")
+from tokenize import PseudoExtras
+
+
+dolares = input("¿Cuantos dolares tienes?: ")
+dolares = float(dolares)
+valor_peso_colombiano = 3758.60
+peso_Colombiano = dolares * valor_peso_colombiano
+peso_Colombiano = round(peso_Colombiano, 2)
+peso_Colombiano = str(peso_Colombiano)
+print("Tienes $ " + peso_Colombiano + " Col")
