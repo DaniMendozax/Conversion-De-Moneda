@@ -10,7 +10,7 @@ In this project we can find a currency converter to convert from dollars to Arge
 
 	 have python3 installed 
 
-###Requisitos para la instalación
+### Installation requirements
 
 	Clone this repository  -> git clone https://github.com/DaniMendozax/Calculator.git
 	cd  conversor.py
